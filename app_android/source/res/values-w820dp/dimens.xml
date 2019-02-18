@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="radio_title">50dp</dimen>
+    <dimen name="radio_list_name_and_from">36dp</dimen>
+    <dimen name="radio_list_margin">40dp</dimen>
+    <dimen name="radio_list_isplay_margin">14dp</dimen>
+    <dimen name="radio_list_isplay_size">54dp</dimen>
+    <dimen name="radio_bufferindicator_width">28dp</dimen>
+    <dimen name="radio_main_name">100dp</dimen>
+    <dimen name="radio_main_from">52dp</dimen>
+    <dimen name="dialog_title">60dp</dimen>
+    <dimen name="dialog_text">40dp</dimen>
+</resources>

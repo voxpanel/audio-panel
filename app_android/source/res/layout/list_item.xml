@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/radio_list_margin"
+        android:layout_marginTop="@dimen/radio_list_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/radioListName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="bottom|left"
+            android:text="Example FM"
+            android:textColor="#92798f"
+            android:textSize="@dimen/radio_list_name_and_from" />
+
+        <TextView
+            android:id="@+id/radioListLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:gravity="bottom|right"
+            android:text="Location"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#b17cda"
+            android:textSize="@dimen/radio_list_name_and_from" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/radio_list_isplay_size"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/isPlay"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="@dimen/radio_list_isplay_margin"
+                android:src="@drawable/now_listen"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

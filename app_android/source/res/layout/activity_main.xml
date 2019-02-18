@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shoutcast.stm.radio_nome.MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_front"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="64" />
+
+        <include
+            layout="@layout/viewpager_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="340" />
+
+        <include
+            layout="@layout/main_last"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="64" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </RelativeLayout>
+
+
+</FrameLayout>

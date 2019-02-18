@@ -1,0 +1,45 @@
+body {
+	background-color:#F6F6F6;
+    background:url(http://www.advancehost.com.br/arquivos-central-do-cliente/fundo.jpg) repeat-y center;
+	margin:0px auto;
+	overflow:auto;
+}
+/*
+Estilos de textos
+*/
+.texto_pequeno {
+	color: #333333;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+}
+.texto_medio {
+	color: #333333;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+}
+.texto_medio_negrito {
+	color: #333333;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+.texto_medio_destaque {
+	color: #FF0000;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+.texto_grande {
+	color: #333333;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+}
+.texto_grande_negrito {
+	color: #333333;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+}

@@ -1,0 +1,85 @@
+/* CSS Document */
+
+
+/*Credits: Web-Kreation */
+/*URL: http://web-kreation.com/blog/?p=19 */
+
+/***** Main Formatting *****/
+#menu {
+	background: url(../img/img-menu-bg.jpg) repeat-x left top;
+	width:100%;
+	display: block;
+	text-align:center;	
+}
+
+/***** Menu Formatting *****/
+#menu-links { 
+	display: block;
+    color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#menu-links ul { 
+	width: 900px; /*If your links text is bigger you will have to adjust this value*/
+    height: 34px;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 34px; /*same as height. This will center your text verticaly*/
+	text-decoration: none;
+    background: url(../img/img-menu-bg.jpg) repeat-x left top;
+}
+
+#menu-links ul li { 
+	width: auto;
+	display: inline;
+	float: left;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+}
+			
+#menu-links ul li a { 
+	display: block;
+	text-decoration: none;
+	text-transform: inherit;
+	padding: 0 10px;
+	color: #CCCCCC;
+}
+
+#menu-links ul li em {
+	display: block;
+	float: left;
+	width: 2px;
+	height: 34px;
+    background: url(../img/img-menu-sep.jpg) no-repeat left top;
+}
+
+/*last separator*/
+/*This will add a separator after your last link*/
+#menu-links ul li.sep {
+	width: 2px;
+    background: url(../img/img-menu-sep.jpg) no-repeat left top;
+}
+		  
+#menu-links ul li a:hover, #menu-links ul li a.active { 
+	background: transparent url(../img/img-menu-over.jpg) repeat-x center top;
+	text-decoration: none;
+	Color: white;
+}
+
+#menu-links ul li a.active {
+	font-weight: bold;
+	cursor: default;
+}
+
+
+/******IE hack******/
+<!--[if IE]>
+<style type="text/css">
+p.iepara{ /*Conditional CSS- For IE (inc IE7), create 1em spacing between menu and paragraph that follows*/
+padding-top: 1em;
+}
+</style>
+<![endif]-->

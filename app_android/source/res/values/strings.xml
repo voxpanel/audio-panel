@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">radio_nome</string>
+    <string name="title_1">radio_nome</string>
+    <string name="title_2">Site</string>
+    <string name="connection_error_dialog_title">Erro de conexão</string>
+    <string name="radio_offline">Offline</string>
+    <string name="resume">MSGPLAYBTN</string>
+    <string name="connection_error_dialog_message">Sem conexão. Verifique sua internet e tente denovo</string>
+    <string name="connection_error_dialog_button">Tente novamente</string>
+    <string name="admob_id">ca-app-pub-3443110311246438/9776113327</string>
+    <string name="admob_true_or_false">false</string>
+    <string name="welcome_small">MSGPLAYBTN</string>
+    <string name="radio_name">radio_nome</string>
+    <string name="radio_location">radio_nome</string>
+    <string name="radio_url">URLSHOUTCAST</string>
+    <string name="web_url">URLSITE</string>
+    <string name="share_url">URLSITE</string>
+    <string name="autostart_true_or_false">true</string>
+    
+        <!--SAMPLE KEY, PLEASE REPLACE IT UNLESS YOUR APP WILL FORCE CLOSING!!!-->
+    <string name="item_purchase_code">ea4a98dc-a164-4942-a17b-386d17094dd3</string>
+</resources>
